@@ -51,3 +51,23 @@ h3 {
     width: 100px;
     border-radius: 10px;
 }
+
+/* third section images and paragraph */
+
+#third-img {
+    margin-left: 10px;
+}
+
+#third-img > img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+#goal-caption {
+    padding-left: 185px;
+}
+
+#goals-paragraph {
+    margin: auto;
+    margin-left: 10px;
+}
