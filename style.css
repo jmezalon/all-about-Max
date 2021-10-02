@@ -1,3 +1,53 @@
 body {
-    background: blueviolet;
+    background-image: linear-gradient(to right, beige, white);
+}
+
+section {
+    display: flex;
+}
+
+#intro-img {
+    margin-left: 10px;
+}
+
+#intro-img > img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+#intro-caption {
+    padding-left: 205px;
+}
+
+#intro-paragraph {
+    margin: auto;
+    padding-right: 10px;
+}
+
+/* second half of website */
+
+#love-tech-paragraph {
+    margin: auto;
+    margin-left: 10px;
+}
+
+#second-img > img {
+    width: 350px;
+    border-radius: 5px;
+}
+
+/* middle section with technologies */
+
+h3 {
+    text-align: center;
+}
+
+#diff-technologies {
+    display: flex;
+    justify-content: space-around
+}
+
+.languages img {
+    width: 100px;
+    border-radius: 10px;
 }
