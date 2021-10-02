@@ -71,3 +71,16 @@ h3 {
     margin: auto;
     margin-left: 10px;
 }
+
+/* This is the company section */
+
+#dream-company-section {
+    display: flex;
+    justify-content: space-around
+}
+
+.company img {
+    width: 220px;
+    height: 150px;
+    border-radius: 50%;
+}
