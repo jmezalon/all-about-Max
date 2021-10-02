@@ -84,3 +84,10 @@ h3 {
     height: 150px;
     border-radius: 50%;
 }
+
+/* this is the project section  */
+
+#project-section {
+    display: flex;
+    justify-content: space-between;
+}
