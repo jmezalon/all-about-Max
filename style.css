@@ -47,6 +47,10 @@ h3 {
     margin-left: 10px;
 }
 
+ul {
+    margin-left: -20px;
+}
+
 #diff-technologies {
     display: flex;
     justify-content: space-around
@@ -55,6 +59,7 @@ h3 {
 .languages img {
     width: 100px;
     border-radius: 10px;
+    height: 100px;
 }
 
 /* third section images and paragraph */
