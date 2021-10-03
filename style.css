@@ -3,6 +3,14 @@ body {
     margin-right: 10px;
 }
 
+h1 {
+    margin-left: 10px;
+}
+
+hr {
+    border: 3px solid brown;
+}
+
 section {
     display: flex;
 }
@@ -102,6 +110,15 @@ ul {
     justify-content: space-between;
     margin-left: 10px;
 }
+
+.vl {
+    border-left: 3px solid brown;
+    height: 250px;
+  }
+
+  #second-project {
+      margin-left: 10px;
+  }
 
 #contact-info {
     margin-left: 10px;
