@@ -142,3 +142,15 @@ ul {
 #back-to-top a > p {
     margin-top: 10px;
 }
+
+#contact-info h4 {
+    text-decoration: underline;
+}
+
+#contact-info a {
+    text-decoration: none;
+}
+
+#contact-info a:hover {
+    text-decoration: underline;
+}
