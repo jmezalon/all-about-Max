@@ -154,3 +154,86 @@ ul {
 #contact-info a:hover {
     text-decoration: underline;
 }
+
+/* css for mobile devices */
+
+@media screen and (max-width: 800px) {
+    section {
+        display: block;
+    }
+
+    h1 {
+        margin: auto;
+    }
+
+    #intro-img > img {
+        width: 100%;
+    }
+
+    #love-tech-paragraph {
+        margin: auto;
+    }
+
+    #second-img > img {
+        width: 100%;
+    }
+
+    #third-img > img {
+        width: 100%;
+    }
+
+    .company img {
+        width: 75px;
+        height: 100px;
+    }
+
+    #goals-paragraph {
+        margin: auto;
+    }
+
+    #goal-caption {
+        padding-left: 175px;
+    }
+
+    /* css for technology section */
+
+    #diff-technologies {
+        display: flex;
+        justify-content: space-between;
+        direction: ltr;
+        overflow: auto;
+        height: 25%;
+        width: 95%;
+    }
+
+    .languages {
+        direction: rtl;
+    }
+
+    .languages img {
+       width: 75px;
+       height: 75px; 
+    }
+
+    /* project section */
+
+    #project-section {
+        display: block;
+        margin: auto;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    #second-project {
+        margin: auto;
+    }
+
+    /* contact information */
+
+    #contact-info {
+        margin: auto;
+    }
+
+}
