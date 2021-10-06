@@ -168,7 +168,7 @@ ul {
     }
 
     hr {
-        border: 1px solid brown;
+        border: 1px solid black;
     }
 
     #intro-img {
@@ -237,8 +237,9 @@ ul {
     .languages img {
        width: 125px;
        height: 120px; 
-       border: 1px solid brown;
-       margin: 5px;
+       border: 1px solid yellow;
+       margin-right: 5px;
+       border-radius: 10px;
     }
 
     ul {
@@ -265,6 +266,11 @@ ul {
 
     #contact-info {
         margin: auto;
+        border: yellow 1px solid;
+    }
+
+    #back-to-top {
+        border: yellow 1px solid;
     }
 
 }
