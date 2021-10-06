@@ -164,6 +164,11 @@ ul {
 
     h1 {
         margin: auto;
+        text-align: center;
+    }
+
+    hr {
+        border: 1px solid brown;
     }
 
     #intro-img > img {
