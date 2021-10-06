@@ -207,12 +207,16 @@ ul {
     }
 
     .languages {
-        direction: rtl;
+        direction: ltr;
     }
 
     .languages img {
        width: 75px;
        height: 75px; 
+    }
+
+    ul {
+        margin: auto;
     }
 
     /* project section */
