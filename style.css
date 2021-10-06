@@ -217,6 +217,8 @@ ul {
     .languages img {
        width: 125px;
        height: 120px; 
+       border: 1px solid brown;
+       margin: 5px;
     }
 
     ul {
