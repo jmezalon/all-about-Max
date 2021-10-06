@@ -171,6 +171,11 @@ ul {
         border: 1px solid brown;
     }
 
+    #intro-img {
+        width: 100%;
+        margin: auto;
+    }
+
     #intro-img > img {
         width: 100%;
     }
@@ -183,8 +188,18 @@ ul {
         margin: auto;
     }
 
+    #second-img {
+        width: 100%;
+        margin: auto;
+    }
+
     #second-img > img {
         width: 100%;
+    }
+
+    #third-img {
+        width: 100%;
+        margin: auto;
     }
 
     #third-img > img {
