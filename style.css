@@ -137,6 +137,8 @@ ul {
     border-radius: 5px;
     border: brown 1px solid;
     height: 40px;
+    position: relative;
+    left: 40%;
 }
 
 #back-to-top a > p {
@@ -271,6 +273,14 @@ ul {
 
     #back-to-top {
         border: yellow 1px solid;
+        margin-left: 10px;
+        background: white;
+        width: 100px;
+        text-align: center;
+        border-radius: 5px;
+        height: 40px;
+        position: relative;
+        left: 70%;
     }
 
 }
