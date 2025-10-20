@@ -2,13 +2,12 @@
 // THEME TOGGLE FUNCTIONALITY
 // ========================================
 
-// Get theme from localStorage or system preference
+// Get theme from localStorage or default to dark
 function getPreferredTheme() {
-    const storedTheme = localStorage.getItem('theme');
-    if (storedTheme) {
-        return storedTheme;
-    }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    // Force dark mode as default for all users
+    // Remove this line if you want to respect stored preferences
+    localStorage.removeItem('theme');
+    return 'dark'; // Default to dark mode
 }
 
 // Set theme
@@ -31,11 +30,15 @@ if (themeToggle) {
     });
 }
 
-// Listen for system theme changes
+// Listen for system theme changes (but keep dark as default)
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-    if (!localStorage.getItem('theme')) {
-        setTheme(e.matches ? 'dark' : 'light');
+    // Only respect system preference if user has explicitly set a theme
+    // Otherwise, keep the dark mode default
+    if (localStorage.getItem('theme')) {
+        // User has made a choice, respect their stored preference
+        return;
     }
+    // Keep dark mode as default regardless of system preference
 });
 
 // ========================================
