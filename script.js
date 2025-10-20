@@ -1,4 +1,44 @@
 // ========================================
+// THEME TOGGLE FUNCTIONALITY
+// ========================================
+
+// Get theme from localStorage or system preference
+function getPreferredTheme() {
+    const storedTheme = localStorage.getItem('theme');
+    if (storedTheme) {
+        return storedTheme;
+    }
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+
+// Set theme
+function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+}
+
+// Initialize theme on page load
+const theme = getPreferredTheme();
+setTheme(theme);
+
+// Theme toggle button
+const themeToggle = document.getElementById('theme-toggle');
+if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        setTheme(newTheme);
+    });
+}
+
+// Listen for system theme changes
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+        setTheme(e.matches ? 'dark' : 'light');
+    }
+});
+
+// ========================================
 // MOBILE NAVIGATION
 // ========================================
 

@@ -8,9 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Max Mezalon | Software Analyst & AI Enthusiast</title>
+    <title>Max Mezalon | Full-Stack Developer & AI Enthusiast</title>
 </head>
 <body>
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" aria-label="Toggle theme">
+        <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
     <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-container">
@@ -36,10 +53,11 @@
             <div class="hero-text">
                 <p class="hero-greeting">Hi, I'm</p>
                 <h1 class="hero-name">Max Mezalon</h1>
-                <h2 class="hero-title">Software Analyst & AI Enthusiast</h2>
+                <h2 class="hero-title">Full-Stack Developer & AI Enthusiast</h2>
                 <p class="hero-description">
-                    Building innovative solutions at <span class="highlight">Blackstone</span>.
-                    Passionate about leveraging AI to solve real-world problems and create meaningful impact.
+                    Building innovative solutions at <span class="highlight">Blackstone</span> as a Full-Stack Software Developer.
+                    Passionate about <span class="highlight">frontend development</span>, creating responsive React applications,
+                    and leveraging AI to solve real-world problems.
                 </p>
                 <div class="hero-cta">
                     <a href="#projects" class="btn btn-primary">View My Work</a>
@@ -90,14 +108,21 @@
                         I faced setbacks and doubts - but my determination to build technology that improves lives kept me going.
                     </p>
                     <p>
-                        Today, as a Software Analyst at Blackstone, I work extensively with <strong>React</strong> and <strong>Node.js</strong>,
-                        create data visualizations with <strong>Sigma Computing</strong>, and explore the frontiers of AI development.
-                        I've built applications using <strong>ChatGPT</strong>, <strong>Claude Sonnet 4</strong>, and the <strong>Claude Code CLI</strong>,
-                        combining traditional software engineering with cutting-edge AI capabilities.
+                        Today, as a <strong>Full-Stack Software Developer</strong> at Blackstone (currently an Analyst, on track for
+                        Associate promotion), I work extensively with <strong>React.js</strong>, <strong>Express</strong>,
+                        <strong>Node.js</strong>, and <strong>PostgreSQL</strong>. While I'm proficient across the full stack,
+                        my true passion lies in <strong>frontend development</strong> - building beautiful, responsive,
+                        modern websites with React.
                     </p>
                     <p>
-                        I believe in building solutions that solve real problems - whether it's helping my community achieve financial goals
-                        or making Bible study more accessible. Every project I take on is driven by a desire to create meaningful impact.
+                        I've embraced AI as a powerful development tool, primarily building projects with <strong>Anthropic's Claude Sonnet</strong>,
+                        and also working with <strong>OpenAI's ChatGPT</strong>. I believe in combining traditional software engineering
+                        principles with cutting-edge AI capabilities to build solutions that solve real problems.
+                    </p>
+                    <p>
+                        Whether it's helping my Caribbean community achieve financial goals through collaborative savings,
+                        or making Bible study more accessible through technology - every project I take on is driven by a desire
+                        to create meaningful impact.
                     </p>
                     <div class="about-links">
                         <a href="https://medium.com/@jmezalon/journey-to-my-first-developer-job-3e8289f1ca80" target="_blank" class="text-link">
@@ -134,15 +159,17 @@
                     </div>
                     <h3>SavePal</h3>
                     <p class="project-description">
-                        A unique fintech application inspired by the traditional Caribbean "sousou" concept. SavePal enables
-                        groups to pool their money together, helping members achieve their financial goals faster through
-                        collaborative saving.
+                        A unique fintech mobile application inspired by the traditional Caribbean "sousou" savings method.
+                        Built with AI assistance, SavePal enables groups to pool their money together with rotating payouts -
+                        each member receives the full sum in rotation until everyone has received their payout, ending the cycle.
+                        A concept I haven't seen in the App Store yet, perfect for accomplishing short-term financial goals.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">React Native</span>
                         <span class="tech-tag">Node.js</span>
                         <span class="tech-tag">PostgreSQL</span>
                         <span class="tech-tag">Express</span>
+                        <span class="tech-tag">AI-Assisted</span>
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/jmezalon/savePal" target="_blank" class="project-link">
@@ -162,15 +189,17 @@
                     </div>
                     <h3>Bibliology</h3>
                     <p class="project-description">
-                        A comprehensive Bible study platform built entirely with Claude Code CLI. Empowers Bible study teachers
-                        to create and share lessons, while students can test their knowledge and improve their biblical literacy
-                        through interactive assessments.
+                        A comprehensive Bible study platform built entirely with Claude Code CLI for my church Bible study teacher.
+                        Enables teachers to create detailed lessons and quizzes, sharing their knowledge with a larger audience.
+                        Students can test their understanding and improve their biblical literacy through interactive assessments,
+                        making quality Bible education more accessible.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-tag">Claude AI</span>
+                        <span class="tech-tag">Claude Sonnet</span>
                         <span class="tech-tag">React</span>
                         <span class="tech-tag">TypeScript</span>
                         <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">PostgreSQL</span>
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/jmezalon/bibliology" target="_blank" class="project-link">
@@ -258,45 +287,31 @@
             <p class="section-subtitle">Technologies I work with to build modern solutions</p>
 
             <div class="skills-container">
-                <div class="skill-category">
-                    <h3>AI & Machine Learning</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <div class="skill-icon">🤖</div>
-                            <span>ChatGPT API</span>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">✨</div>
-                            <span>Claude AI</span>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">🔧</div>
-                            <span>Claude Code CLI</span>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">💡</div>
-                            <span>Windsurf IDE</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Frontend Development</h3>
+                <div class="skill-category featured-category">
+                    <h3>Frontend Development (My Passion! 💙)</h3>
                     <div class="skills-grid">
                         <div class="skill-item">
                             <div class="skill-icon">⚛️</div>
-                            <span>React</span>
+                            <span>React.js</span>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-icon">🔷</div>
-                            <span>TypeScript</span>
+                            <div class="skill-icon">📱</div>
+                            <span>React Native</span>
                         </div>
                         <div class="skill-item">
                             <div class="skill-icon">🎨</div>
                             <span>Redux</span>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-icon">📱</div>
+                            <div class="skill-icon">⚡</div>
+                            <span>Next.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🔷</div>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📐</div>
                             <span>Responsive Design</span>
                         </div>
                     </div>
@@ -310,38 +325,68 @@
                             <span>Node.js</span>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-icon">⚡</div>
+                            <div class="skill-icon">🚂</div>
                             <span>Express</span>
                         </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">🐍</div>
-                            <span>Python</span>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">💎</div>
-                            <span>Ruby on Rails</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Data & Database</h3>
-                    <div class="skills-grid">
                         <div class="skill-item">
                             <div class="skill-icon">🐘</div>
                             <span>PostgreSQL</span>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-icon">📊</div>
-                            <span>Sigma Computing</span>
+                            <div class="skill-icon">🐍</div>
+                            <span>Django</span>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-icon">📈</div>
+                            <div class="skill-icon">💎</div>
+                            <span>Ruby</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🔥</div>
+                            <span>Supabase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>AI-Assisted Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">✨</div>
+                            <span>Claude Sonnet</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🤖</div>
+                            <span>ChatGPT</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🔧</div>
+                            <span>Claude Code CLI</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">💡</div>
+                            <span>AI-Powered Tools</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Additional Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">🐍</div>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🔄</div>
+                            <span>RESTful APIs</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📊</div>
                             <span>Data Visualization</span>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-icon">🔍</div>
-                            <span>Data Analysis</span>
+                            <div class="skill-icon">🎯</div>
+                            <span>Agile/Scrum</span>
                         </div>
                     </div>
                 </div>
@@ -356,10 +401,28 @@
 
             <div class="achievements-grid">
                 <div class="achievement-card">
+                    <div class="achievement-icon">💼</div>
+                    <h3>Full-Stack Developer at Blackstone</h3>
+                    <p>Building enterprise solutions with React, Node.js & PostgreSQL. On track for Associate promotion.</p>
+                    <a href="https://www.linkedin.com/in/max-mezalon/" target="_blank" class="achievement-link">
+                        View Profile →
+                    </a>
+                </div>
+
+                <div class="achievement-card">
                     <div class="achievement-icon">🎓</div>
-                    <h3>Scrimba Frontend Developer</h3>
-                    <p>Completed comprehensive frontend development certification</p>
+                    <h3>Scrimba Frontend Path</h3>
+                    <p>Comprehensive frontend development certification</p>
                     <a href="https://www.linkedin.com/in/max-mezalon/overlay/1739218029030/single-media-viewer/?profileId=ACoAADa0xdoBr9ZfWuwyrFdEFDKy9IkRBry_agI" target="_blank" class="achievement-link">
+                        View Certificate →
+                    </a>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🎓</div>
+                    <h3>Scrimba React Certification</h3>
+                    <p>Advanced React development and best practices</p>
+                    <a href="https://www.linkedin.com/in/max-mezalon/overlay/1749738477054/single-media-viewer/?profileId=ACoAADa0xdoBr9ZfWuwyrFdEFDKy9IkRBry_agI" target="_blank" class="achievement-link">
                         View Certificate →
                     </a>
                 </div>
@@ -383,11 +446,11 @@
                 </div>
 
                 <div class="achievement-card">
-                    <div class="achievement-icon">💼</div>
-                    <h3>Software Analyst</h3>
-                    <p>Building solutions at Blackstone with React, Node.js & AI</p>
-                    <a href="https://www.linkedin.com/in/max-mezalon/" target="_blank" class="achievement-link">
-                        View Profile →
+                    <div class="achievement-icon">💻</div>
+                    <h3>Open Source Contributions</h3>
+                    <p>Building innovative projects and contributing to the developer community</p>
+                    <a href="https://github.com/jmezalon" target="_blank" class="achievement-link">
+                        View GitHub →
                     </a>
                 </div>
             </div>
