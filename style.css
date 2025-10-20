@@ -1066,6 +1066,11 @@ footer p {
         left: 0;
     }
 
+    /* Hide scroll indicator on mobile */
+    .scroll-indicator {
+        display: none;
+    }
+
     .hamburger {
         display: flex;
     }
