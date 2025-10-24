@@ -7,7 +7,7 @@ function getPreferredTheme() {
     // Force dark mode as default for all users
     // Remove this line if you want to respect stored preferences
     localStorage.removeItem('theme');
-    return 'dark'; // Default to dark mode
+    return 'light'; // Default to dark mode
 }
 
 // Set theme
@@ -209,7 +209,7 @@ function createScrollToTopButton() {
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background: linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%);
+        background: linear-gradient(135deg, #b4844d 0%, #f0d89b 100%);
         color: white;
         border: none;
         font-size: 1.5rem;
@@ -331,10 +331,10 @@ if ('loading' in HTMLImageElement.prototype) {
 // CONSOLE MESSAGE (Easter egg for developers)
 // ========================================
 
-console.log('%c👋 Hey there, fellow developer!', 'font-size: 20px; font-weight: bold; color: #00d4ff;');
+console.log('%c👋 Hey there, fellow developer!', 'font-size: 20px; font-weight: bold; color: #b4844d;');
 console.log('%cThanks for checking out the code! If you\'re interested in collaborating or just want to chat about tech, feel free to reach out!', 'font-size: 14px; color: #b8bcc8;');
-console.log('%c📧 jmezalon@gmail.com', 'font-size: 14px; color: #7c3aed; font-weight: bold;');
-console.log('%c💼 https://www.linkedin.com/in/max-mezalon/', 'font-size: 14px; color: #7c3aed; font-weight: bold;');
+console.log('%c📧 jmezalon@gmail.com', 'font-size: 14px; color: #b4844d; font-weight: bold;');
+console.log('%c💼 https://www.linkedin.com/in/max-mezalon/', 'font-size: 14px; color: #b4844d; font-weight: bold;');
 
 // ========================================
 // INITIALIZE ON LOAD

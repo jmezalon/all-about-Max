@@ -21,9 +21,9 @@
     --text-muted: #718096;
 
     /* Accent Colors (Same for both modes) */
-    --accent-primary: #00d4ff;
-    --accent-secondary: #7c3aed;
-    --accent-gradient: linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%);
+    --accent-primary: #b4844d;
+    --accent-secondary: #f0d89b;
+    --accent-gradient: linear-gradient(135deg, #b4844d 0%, #f0d89b 100%);
 
     /* Semantic Colors */
     --success: #10b981;
@@ -425,8 +425,8 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 30% 50%, rgba(124, 58, 237, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 70% 80%, rgba(0, 212, 255, 0.1) 0%, transparent 50%);
+    background: radial-gradient(circle at 30% 50%, rgba(239, 227, 184, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 70% 80%, rgba(230, 219, 104, 0.1) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -674,12 +674,12 @@ a:hover {
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-xl);
-    border-color: rgba(0, 212, 255, 0.3);
+    border-color: rgba(237, 245, 163, 0.3);
 }
 
 .project-card.featured {
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.1) 0%, rgba(0, 212, 255, 0.05) 100%);
-    border-color: rgba(0, 212, 255, 0.2);
+    background: linear-gradient(135deg, rgba(244, 240, 217, 0.1) 0%, rgba(248, 248, 245, 0.05) 100%);
+    border-color: rgba(244, 234, 98, 0.2);
 }
 
 .project-header {
