@@ -35,7 +35,7 @@
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-    --shadow-glow: 0 0 20px rgba(0, 212, 255, 0.2);
+    --shadow-glow: 0 0 20px rgba(247, 232, 74, 0.2);
 
     /* Border colors */
     --border-color: rgba(0, 0, 0, 0.1);
@@ -60,7 +60,7 @@
         --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
         --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
         --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
-        --shadow-glow: 0 0 20px rgba(0, 212, 255, 0.3);
+        --shadow-glow: 0 0 20px rgba(249, 236, 119, 0.3);
 
         /* Border colors */
         --border-color: rgba(255, 255, 255, 0.1);
@@ -85,7 +85,7 @@
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
     --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
-    --shadow-glow: 0 0 20px rgba(0, 212, 255, 0.3);
+    --shadow-glow: 0 0 20px rgba(247, 227, 81, 0.3);
 
     /* Border colors */
     --border-color: rgba(255, 255, 255, 0.1);
@@ -109,7 +109,7 @@
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-    --shadow-glow: 0 0 20px rgba(0, 212, 255, 0.2);
+    --shadow-glow: 0 0 20px rgba(250, 232, 139, 0.2);
 
     /* Border colors */
     --border-color: rgba(0, 0, 0, 0.1);
@@ -791,8 +791,8 @@ a:hover {
 }
 
 .skill-category.featured-category {
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.15) 0%, rgba(0, 212, 255, 0.1) 100%);
-    border: 2px solid rgba(0, 212, 255, 0.3);
+    background: linear-gradient(135deg, rgba(240, 220, 198, 0.15) 0%, rgba(240, 216, 155, 0.1) 100%);
+    border: 2px solid rgba(230, 185, 3, 0.3);
     box-shadow: var(--shadow-glow);
 }
 
@@ -821,7 +821,7 @@ a:hover {
 
 .skill-item:hover {
     transform: translateY(-5px);
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.2) 0%, rgba(0, 212, 255, 0.2) 100%);
+    background: linear-gradient(135deg, rgba(244, 232, 172, 0.2) 0%, rgba(244, 247, 247, 0.2) 100%);
 }
 
 .skill-icon {

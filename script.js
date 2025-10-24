@@ -269,7 +269,7 @@ function createCursorGlow() {
         width: 20px;
         height: 20px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(0, 212, 255, 0.3) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(129, 123, 3, 0.6) 0%, transparent 70%);
         pointer-events: none;
         transition: transform 0.15s ease;
         z-index: 9999;
