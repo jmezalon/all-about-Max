@@ -166,7 +166,7 @@ window.addEventListener('scroll', setActiveNavLink);
 // TYPING EFFECT FOR HERO TITLE (OPTIONAL)
 // ========================================
 
-function typeWriter(element, text, speed = 100) {
+function typeWriter(element, text, speed = 60) {
     let i = 0;
     element.innerHTML = '';
 
@@ -182,13 +182,13 @@ function typeWriter(element, text, speed = 100) {
 }
 
 // Uncomment to enable typing effect on load
-// window.addEventListener('load', () => {
-//     const heroTitle = document.querySelector('.hero-title');
-//     if (heroTitle) {
-//         const titleText = heroTitle.textContent;
-//         typeWriter(heroTitle, titleText, 80);
-//     }
-// });
+window.addEventListener('load', () => {
+    const heroTitle = document.querySelector('.hero-title');
+    if (heroTitle) {
+        const titleText = heroTitle.textContent;
+        typeWriter(heroTitle, titleText);
+    }
+});
 
 // ========================================
 // SCROLL TO TOP BUTTON (Optional)
@@ -308,7 +308,7 @@ function createCursorGlow() {
 }
 
 // Initialize cursor glow (optional - comment out if too fancy)
-// createCursorGlow();
+createCursorGlow();
 
 // ========================================
 // PERFORMANCE OPTIMIZATION
