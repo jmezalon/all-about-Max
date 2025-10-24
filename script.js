@@ -308,7 +308,7 @@ function createCursorGlow() {
 }
 
 // Initialize cursor glow (optional - comment out if too fancy)
-createCursorGlow();
+// createCursorGlow();
 
 // ========================================
 // PERFORMANCE OPTIMIZATION
